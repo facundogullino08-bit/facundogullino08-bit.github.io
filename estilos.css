@@ -1,0 +1,420 @@
+
+
+
+
+
+
+
+   /*index*/
+
+    .menu {
+      background-color:#082b66;
+      padding:15px;
+      text-align:center;
+    }
+
+    .menu a {
+      color:white;
+      text-decoration:none;
+      margin:15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .menu a:hover {
+      color:#ffd700;
+    }
+
+    .contenedor {
+      width:90%;
+      margin:auto;
+      padding:40px 0;
+    }
+
+    .seccion {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      margin:60px 0;
+      gap:40px;
+    }
+
+    .seccion:nth-child(even) {
+      flex-direction:row-reverse;
+    }
+
+    .seccion-reversa {
+      flex-direction:row-reverse;
+    }
+
+    .texto-imagen {
+      font-size:14px;
+      color:#cfd8e8;
+      text-align:center;
+      margin-top:10px;
+      font-style:italic;
+    }
+
+    .texto {
+      flex:1;
+    }
+
+    .texto h2 {
+      color:#ffd700;
+      font-size:28px;
+      margin-bottom:15px;
+    }
+
+    .texto p {
+      font-size:18px;
+      line-height:1.6;
+    }
+
+    .imagen {
+      flex:1;
+    }
+
+    .imagen img {
+      width:100%;
+      border-radius:15px;
+      box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    /* Dos columnas de texto */
+    .doble-texto {
+      display:flex;
+      gap:40px;
+      margin:60px 0;
+    }
+
+    .doble-texto div {
+      flex:1;
+    }
+
+    /* Dos imagenes lado a lado */
+    .doble-imagen {
+      display:flex;
+      gap:20px;
+      margin:60px 0;
+    }
+
+    .doble-imagen img {
+      flex:1;
+      width:100%;
+      border-radius:15px;
+      box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+    }
+
+    /* Lista de barrios */
+    .lista-barrios {
+      margin:60px 0;
+    }
+
+    .lista-barrios h2 {
+      color:#ffd700;
+      margin-bottom:20px;
+    }
+
+    .lista-barrios ul {
+      columns:2;
+      list-style:none;
+      padding:0;
+    }
+
+    .lista-barrios li {
+      margin:8px 0;
+      font-size:18px;
+    }
+
+    .formulario {
+            background:rgba(255,255,255,0.1);
+            padding:30px;
+            border-radius:15px;
+            max-width:600px;
+            margin:auto;
+            box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+        }
+
+        .formulario h2 {
+            text-align:center;
+            color:#ffd700;
+            margin-bottom:20px;
+        }
+
+        .formulario label {
+            display:block;
+            margin:10px 0 5px;
+            font-weight:bold;
+        }
+
+        .formulario input, .formulario textarea {
+            width:100%;
+            padding:10px;
+            border:none;
+            border-radius:8px;
+            margin-bottom:15px;
+            font-size:16px;
+        }
+
+        .formulario button {
+            background:#ffd700;
+            color:#082b66;
+            border:none;
+            padding:12px 20px;
+            border-radius:10px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+            width:100%;
+        }
+
+        .formulario button:hover {
+            background:white;
+        }
+   
+   
+   
+   /*barrios*/
+  
+  .laboca{
+    background-image:url("laboca.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.belgrano{
+    background-image:url("belgrano.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.puertomadero{
+    background-image:url("puertomadero.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.palermo{
+    background-image:url('https://images.unsplash.com/photo-1518391846015-55a9cc003b25?q=80&w=1200&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+}
+
+.recoleta{
+    background-image:url("recoleta.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.santelmo{
+    background-image:url("santelmo.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.caballito {
+    background-image: url("caballito.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.almagro {
+    background-image: url("almagro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.villaurquiza {
+    background-image: url("villaurquiza.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.flores {
+    background-image: url("flores.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.retiro {
+    background-image: url("retiro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.constitucion {
+    background-image: url("constitucion.jpg");
+    background-size: cover;
+    background-position: center;
+}
+*{box-sizing:border-box;}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  nav {
+    background: #1abc9c;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #2c3e50;
+  }
+  
+  
+  
+
+
+
+
+/* Paginas de barrios individuales*/
+
+.pagina-barrio {
+    background-color: #082b66;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina-barrio .menu {
+    background-color: #082b66;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255,215,0,0.3);
+}
+
+.pagina-barrio .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.pagina-barrio .menu a:hover {
+    color: #ffd700;
+}
+
+.hero-barrio {
+    position: relative;
+    height: 320px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-barrio::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(8,43,102,0.95), rgba(8,43,102,0.15));
+}
+
+.hero-barrio .hero-texto {
+    position: relative;
+    z-index: 1;
+    padding: 30px 6%;
+}
+
+.hero-barrio h1 {
+    margin: 0;
+    font-size: 42px;
+    color: #fff;
+}
+
+.hero-barrio p {
+    margin-top: 8px;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contenido-barrio {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contenido-barrio article {
+    flex: 2;
+    min-width: 280px;
+}
+
+.contenido-barrio article h2 {
+    color: #ffd700;
+    margin-top: 0;
+}
+
+.contenido-barrio article p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contenido-barrio aside {
+    flex: 1;
+    min-width: 230px;
+    background: rgba(255,255,255,0.08);
+    border-left: 4px solid #ffd700;
+    border-radius: 12px;
+    padding: 22px;
+    align-self: flex-start;
+}
+
+.contenido-barrio aside h3 {
+    color: #ffd700;
+    margin-top: 0;
+}
+
+.contenido-barrio aside ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.contenido-barrio aside li {
+    margin-bottom: 8px;
+}
+
+.volver-btn {
+    display: inline-block;
+    margin: 25px 6%;
+    background: #ffd700;
+    color: #082b66;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.volver-btn:hover {
+    background: #fff;
+}
+
+.pagina-barrio footer {
+    text-align: center;
+    padding: 20px;
+    background: #082b66;
+    margin-top: 40px;
+    border-top: 2px solid rgba(255,215,0,0.3);
+}
