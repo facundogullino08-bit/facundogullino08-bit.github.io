@@ -1,0 +1,181 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: "Oswald", sans-serif;
+    color: #3a3a3a;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1f4741;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+h1 {
+    color: rgb(203, 233, 222);
+    text-align: center;
+    font-family: "Montenegrin Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+nav li a {
+    color: rgb(203, 233, 222);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.contenedor_padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    padding: 30px 40px;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 300px;
+    border: 4px solid #1f4741;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+
+main {
+    padding: 20px 40px;
+}
+
+section h2, section h3 {
+    color: #1f4741;
+}
+
+section ul {
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: #1f4741;
+    color: rgb(203, 233, 222);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+.form_contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: aquamarine;
+    border: 4px solid #1f4741;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+form label {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #1f4741;
+    border-radius: 4px;
+    font-family: "Oswald", sans-serif;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1f4741;
+    color: rgb(203, 233, 222);
+    border: none;
+    border-radius: 4px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #163430;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ol {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenedor_padre {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
